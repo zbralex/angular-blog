@@ -32,7 +32,7 @@ import {AuthGuard} from "../shared/services/auth.guard";
     ])
   ],
   exports: [RouterModule],
-  providers: [AuthService, AuthGuard],
+  providers: [AuthGuard],
   declarations: [AdminLayoutComponent, LoginPageComponent, DashboardPageComponent, CreatePageComponent, EditPageComponent]
 })
 export class AdminModule {
