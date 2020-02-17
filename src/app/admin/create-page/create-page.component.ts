@@ -29,5 +29,6 @@ export class CreatePageComponent implements OnInit {
       date: new Date()
 
     }
+    console.log(post)
   }
 }
