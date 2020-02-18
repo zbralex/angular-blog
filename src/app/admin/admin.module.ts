@@ -38,7 +38,8 @@ import {SearchPipe} from "./shared/search.pipe";
         DashboardPageComponent,
         CreatePageComponent,
         EditPageComponent,
-        SearchPipe]
+        SearchPipe
+    ]
 })
 export class AdminModule {
 
